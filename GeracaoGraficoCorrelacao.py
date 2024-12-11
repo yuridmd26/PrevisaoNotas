@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregar o conjunto de dados
-dados_estudantes = pd.read_csv('student-mat.csv', sep=';')
+dados_estudantes = pd.read_csv('PrevisaoNotas/student-mat.csv', sep=';')
 
 # Criar novas colunas (features)
 dados_estudantes['media_notas'] = (dados_estudantes['G1'] + dados_estudantes['G2']) / 2

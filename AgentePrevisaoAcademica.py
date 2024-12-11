@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from xgboost import XGBRegressor
 
 # Carregar dataset
-dados_estudantes = pd.read_csv('student-mat.csv', sep=';')
+dados_estudantes = pd.read_csv('PrevisaoNotas/student-mat.csv', sep=';')
 
 # Tratamento de valores ausentes
 dados_estudantes.fillna(0, inplace=True)
